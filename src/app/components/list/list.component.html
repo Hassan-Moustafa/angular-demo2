@@ -1,0 +1,7 @@
+<div class="post-card" 
+     tabindex="-1" 
+     [id]="i" 
+     *ngFor="let post of postsList; let i = index">
+    <h2>#{{i}} {{post.title}} </h2>
+    <p>{{post.body}}</p>
+</div>
